@@ -67,7 +67,7 @@ const categories = [
     {
         icon: <FaTools />,
         title: "Tools",
-        tech: "Git, GitHub, Postman, JWT, Render, Vercel",
+        tech: "Git, GitHub, Postman, Render, Vercel",
     },
 ];
 

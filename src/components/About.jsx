@@ -38,63 +38,21 @@ const About = () => {
 
                    
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 mt-10">
+                  
 
                        
 
-                        <div className="bg-[#171733] border border-[#2A2950] rounded-2xl p-6 flex items-start gap-4">
-
-                            <FaMapMarkerAlt className="text-[#A8E63D] text-2xl mt-1" />
-
-                            <div>
-                                <p className="uppercase tracking-[3px] text-xs text-gray-400">
-                                    Location
-                                </p>
-
-                                <h3 className="text-white font-semibold mt-2">
-                                    Gandhinagar, Gujarat
-                                </h3>
-                            </div>
-
-                        </div>
+                        
 
                         
 
-                        <div className="bg-[#171733] border border-[#2A2950] rounded-2xl p-6 flex items-start gap-4">
-
-                            <FaPhoneAlt className="text-[#A8E63D] text-2xl mt-1" />
-
-                            <div>
-                                <p className="uppercase tracking-[3px] text-xs text-gray-400">
-                                    Phone
-                                </p>
-
-                                <h3 className="text-white font-semibold mt-2">
-                                    +91 8866152132
-                                </h3>
-                            </div>
-
-                        </div>
+                     
 
                         
 
-                        <div className="bg-[#171733] border border-[#2A2950] rounded-2xl p-6 flex items-start gap-4">
+                        
 
-                            <FaEnvelope className="text-[#A8E63D] text-2xl mt-1" />
-
-                            <div>
-                                <p className="uppercase tracking-[3px] text-xs text-gray-400">
-                                    Email
-                                </p>
-
-                                <h3 className="text-white font-semibold mt-2 break-all">
-                                    vraj.261604@gmail.com
-                                </h3>
-                            </div>
-
-                        </div>
-
-                    </div>
+                    
 
                 </div>
 
