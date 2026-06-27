@@ -118,8 +118,8 @@ const About = () => {
                     </h3>
                 </div>
 
-                <div className="bg-[#1B1B3A] border border-[#2A2950] rounded-3xl p-6 sm:p-8">
-                    <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-4">
+                <div className="bg-[#1B1B3A] border border-[#2A2950] rounded-3xl p-6 sm:p-8 hover:border-[#A8E63D] hover:-translate-y-2 transition-all duration-300">
+                    <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-4 ">
                         <div>
                             <h4 className="text-2xl font-bold text-white">
                                 React.js Developer Intern
