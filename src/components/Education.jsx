@@ -33,7 +33,6 @@ const Education = () => {
     >
       <div className="max-w-7xl flex flex-col items-center lg:items-start mx-auto px-5 sm:px-8 lg:px-10">
 
-        {/* Badge */}
 
         <div className="inline-flex px-5 py-2 rounded-full bg-[#1B1B3A] border border-[#2A2950]">
           <span className="text-[#A8E63D] font-medium">
@@ -41,14 +40,12 @@ const Education = () => {
           </span>
         </div>
 
-        {/* Heading */}
 
         <h2 className="mt-5 text-4xl sm:text-5xl font-bold text-[#A8E63D]">
           Education
         </h2>
 
-        {/* Education Cards */}
-
+        
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mt-12">
 
           {education.map((item) => (
@@ -86,7 +83,6 @@ const Education = () => {
 
         </div>
 
-        {/* Achievements */}
 
         <div className="flex items-center gap-3 mt-16">
 

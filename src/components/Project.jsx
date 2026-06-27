@@ -75,7 +75,6 @@ const Projects = () => {
         >
             <div className="max-w-7xl mx-auto flex  items-center lg:items-start flex-col px-5 sm:px-8 lg:px-10">
 
-                {/* Badge */}
 
                 <div className="inline-flex px-5 py-2 rounded-full bg-[#1B1B3A] border border-[#2A2950]">
                     <span className="text-[#A8E63D] font-medium">
@@ -83,13 +82,11 @@ const Projects = () => {
                     </span>
                 </div>
 
-                {/* Heading */}
 
                 <h2 className="mt-5 text-4xl sm:text-5xl font-bold text-[#A8E63D]">
                     Projects
                 </h2>
 
-                {/* Cards */}
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-12">
 
@@ -101,7 +98,6 @@ const Projects = () => {
                                 }`}
                         >
 
-                            {/* Header */}
 
                             <div className="flex justify-between items-start">
 
@@ -128,19 +124,15 @@ const Projects = () => {
                                         </div>
                                     )}
                                 </div>
-
-                            
+ 
 
                             </div>
 
-                            {/* Description */}
 
                             <p className="text-[#C2C2DE] mt-8 leading-8">
                                 {project.description}
                             </p>
 
-
-                            {/* Tech */}
 
                             <div className="flex flex-wrap gap-3 mt-8">
 
@@ -157,7 +149,6 @@ const Projects = () => {
 
                             </div>
 
-                            {/* Buttons */}
 
                             <div className="flex gap-4 mt-8">
 

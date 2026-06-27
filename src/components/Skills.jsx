@@ -114,29 +114,23 @@ const Skills = () => {
                             className="bg-[#1B1B3A] border border-[#2A2950] rounded-3xl p-8 hover:border-[#A8E63D] hover:-translate-y-2 transition-all duration-300 h-full"
                         >
 
-                            {/* Card Icon */}
 
                             <div className="text-[#A8E63D] text-5xl">
                                 {category.icon}
                             </div>
 
-                            {/* Title */}
 
                             <h3 className="mt-6 text-3xl font-bold text-white">
                                 {category.title}
                             </h3>
 
-                            {/* Subtitle */}
 
                             <p className="mt-2 text-sm text-[#8F8FB3]">
                                 {category.subtitle}
                             </p>
 
-                            {/* Divider */}
 
                             <div className="w-14 h-[3px] rounded-full bg-[#A8E63D] mt-5 mb-8"></div>
-
-                            {/* Skills */}
 
                            <div className="space-y-5">
 

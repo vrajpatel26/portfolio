@@ -4,22 +4,17 @@ const Hero = () => {
       id="home"
       className="relative min-h-screen  overflow-hidden flex items-center justify-center scroll-mt-20 py-12 sm:py-16"
     >
-      {/* ================= Background Glow ================= */}
 
 
-      {/* ================= Grid ================= */}
-       {/* Top left glow */}
       <div className="absolute top-[-100px] left-[-100px] w-[500px] h-[500px] rounded-full bg-[#A8E63D]/10 blur-[120px] pointer-events-none" />
 
-      {/* Top right glow */}
+
       <div className="absolute top-[-80px] right-[-80px] w-[400px] h-[400px] rounded-full bg-[#A8E63D]/10 blur-[100px] pointer-events-none" />
 
       
       
-      {/* ================= Hero ================= */}
       <div className="relative z-10 w-full max-w-[920px] mx-auto px-6 text-center -mt-10">
 
-        {/* Heading */}
         <h1 className="font-black leading-12 tracking-normal">
 
           <span className="block leading-none text-white text-[42px] sm:text-[52px] md:text-[62px] lg:text-[70px] xl:text-[78px]">
@@ -37,7 +32,6 @@ const Hero = () => {
         </h1>
 
 
-        {/* Description */}
         <p className="mt-8 max-w-[560px] mx-auto text-[17px] md:text-[18px] leading-[1.7] text-[#AEB3C3]">
           I turn ideas into powerful digital products — building full-stack
           web applications with clean architecture, real-time features, and
@@ -52,7 +46,6 @@ const Hero = () => {
         </p>
 
 
-        {/* Buttons */}
         <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
 
           <a
