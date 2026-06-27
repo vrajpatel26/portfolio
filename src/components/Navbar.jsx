@@ -81,7 +81,7 @@ const Navbar = () => {
                             href="/Vraj_Patel_Resume.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="mt-4 w-[85%] sm:w-72 bg-[#A8E63D] text-[#17153A] text-center font-semibold py-3 rounded-full hover:scale-105 transition duration-300"
+                            className="mt-4 w-[85%] sm:w-72 bg-[#A8E63D] text-[#17153A] text-center font-semibold py-3 rounded-xl hover:scale-105 transition duration-300"
                         >
                             Resume
                         </a>
