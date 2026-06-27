@@ -1,3 +1,6 @@
+import { FaArrowRightLong } from "react-icons/fa6";
+
+
 const Hero = () => {
   return (
     <section
@@ -21,7 +24,7 @@ const Hero = () => {
             Hi, I'm Vraj Patel
           </span>
 
-          <span className="block leading-none text-[#C8F031] text-[42px] sm:text-[52px] md:text-[62px] lg:text-[70px] xl:text-[78px]">
+          <span className="block leading-none text-[#A8E63D] text-[42px] sm:text-[52px] md:text-[62px] lg:text-[70px] xl:text-[78px]">
             MERN Stack
           </span>
 
@@ -36,11 +39,11 @@ const Hero = () => {
           I turn ideas into powerful digital products — building full-stack
           web applications with clean architecture, real-time features, and
           seamless user experiences using{" "}
-          <span className="text-[#C8F031] font-semibold">
+          <span className="text-[#A8E63D] font-semibold">
             React, Node.js, Express.js
           </span>{" "}
           and{" "}
-          <span className="text-[#C8F031] font-semibold">
+          <span className="text-[#A8E63D] font-semibold">
             MongoDB.
           </span>
         </p>
@@ -50,24 +53,24 @@ const Hero = () => {
 
           <a
             href="#projects"
-            className="group inline-flex items-center justify-center gap-2 rounded-lg bg-[#C8F031] px-8 py-[14px] text-base font-semibold text-[#060B16] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_35px_rgba(200,240,49,.35)]"
+            className="group inline-flex items-center justify-center gap-2 rounded-lg bg-[#A8E63D] px-8 py-[14px] text-base font-semibold text-[#060B16] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_35px_rgba(200,240,49,.35)]"
           >
             View Projects
 
             <span className="transition-transform duration-300 group-hover:translate-x-1">
-              ↗
+              <FaArrowRightLong />
             </span>
 
           </a>
 
           <a
             href="#contact"
-            className="group inline-flex items-center justify-center gap-2 rounded-lg border border-[#343C52] bg-[#111827]/40 px-8 py-[14px] text-base font-medium text-white backdrop-blur-sm transition-all duration-300 hover:border-[#C8F031] hover:bg-white/5"
+            className="group inline-flex items-center justify-center gap-2 rounded-lg border border-[#343C52] bg-[#111827]/40 px-8 py-[14px] text-base font-semibold text-white backdrop-blur-sm transition-all duration-300 hover:border-[#A8E63D] hover:bg-white/5"
           >
             Contact Me
 
             <span className="transition-transform duration-300 group-hover:translate-x-1">
-              ↗
+              <FaArrowRightLong />
             </span>
 
           </a>
