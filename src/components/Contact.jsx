@@ -9,7 +9,6 @@ const Contact = () => {
             id="contact"
             className="bg-[#12122D] scroll-mt-10 border-t border-[#2A2950]"
         >
-            {/* ================= TOP SECTION ================= */}
 
             <div className="max-w-5xl mx-auto px-5 sm:px-8 py-20 text-center">
 
@@ -31,7 +30,6 @@ const Contact = () => {
                     let's talk.
                 </p>
 
-                {/* Email Card */}
 
                 <a href="mailto:vraj.261604@gmail.com"
                     className="inline-flex items-center gap-6 mt-14 bg-[#1B1B3A] border border-[#2A2950] rounded-full px-8 py-5 hover:border-[#A8E63D] hover:scale-105 transition-all duration-300"
@@ -51,17 +49,14 @@ const Contact = () => {
 
             </div>
 
-            {/* Divider */}
 
             <div className="border-t border-[#2A2950]" />
 
-            {/* ================= BOTTOM SECTION ================= */}
 
             <div className="max-w-7xl mx-auto px-5 sm:px-8 py-16">
 
                 <div className="grid lg:grid-cols-2 gap-16">
 
-                    {/* LEFT SIDE */}
 
                     <div>
 
@@ -112,7 +107,6 @@ const Contact = () => {
 
                     </div>
 
-                    {/* RIGHT SIDE */}
 
                     <div>
 
@@ -122,7 +116,6 @@ const Contact = () => {
 
                         <div className="space-y-6">
 
-                            {/* LinkedIn */}
 
                             <a
                                 href="https://www.linkedin.com/in/vraj-patel-3b94542a4/"
@@ -149,7 +142,6 @@ const Contact = () => {
 
                             </a>
 
-                            {/* GitHub */}
 
                             <a
                                 href="https://github.com/vrajpatel26"
@@ -176,7 +168,6 @@ const Contact = () => {
 
                             </a>
 
-                            {/* Resume */}
 
                             <a
                                 href="/Vraj_Patel_Resume.pdf"
@@ -209,7 +200,6 @@ const Contact = () => {
 
                 </div>
 
-                {/* Bottom Divider */}
 
                 <div className="border-t border-[#2A2950] mt-16 pt-10 flex justify-center">
 
