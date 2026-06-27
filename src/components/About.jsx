@@ -24,107 +24,49 @@ const About = () => {
 
                 <div className="grid grid-cols-1 lg:grid-cols-[480px_minmax(0,1fr)] gap-12 lg:gap-24 items-start">
 
-                    {/* =========================
-              LEFT SIDE
-          ========================= */}
 
-                    {/* =========================
-    LEFT SIDE
-========================= */}
 
                     <div className="relative flex justify-center">
 
-                        {/* Glow */}
+
                         <div className="absolute inset-0 flex items-center justify-center">
                             <div className="w-[320px] h-[320px] lg:w-[420px] lg:h-[420px] rounded-full bg-[#A8E63D]/15 blur-[90px] animate-pulse"></div>
                         </div>
 
-                        {/* Image Container */}
+
                         <div className="relative">
 
-                            {/* Animated Gradient Border */}
+
                             <div className="absolute -inset-[2px] rounded-[34px] bg-gradient-to-br from-[#A8E63D] via-[#5F6FFF] to-[#A8E63D] opacity-70 blur-sm group-hover:blur-md transition-all duration-500"></div>
 
-                            {/* Card */}
+
                             <div
-                                className="
-    relative
-    bg-[#1B1B3A]
-    border
-    border-[#2A2950]
-    rounded-[30px]
-    p-4
-    overflow-hidden
-    transition-all
-    duration-500
-    ease-out
-    group
-    hover:-translate-y-3
-    hover:shadow-[0_25px_60px_rgba(168,230,61,0.25)]
-    hover:border-[#A8E63D]
-  "
+                                className=" relative bg-[#1B1B3A] border border-[#2A2950] rounded-[30px] p-4 overflow-hidden transition-all duration-500 ease-out group hover:-translate-y-3 hover:shadow-[0_25px_60px_rgba(168,230,61,0.25)] hover:border-[#A8E63D]"
                             >
 
                                 <img
                                     src={profile}
                                     alt="Vraj Patel"
-                                    className="
-      w-full
-      max-w-md
-      mx-auto
-      lg:max-w-none
-      h-auto
-      lg:h-[560px]
-      object-cover
-      rounded-3xl
-      transition-transform
-      duration-700
-      ease-out
-      group-hover:scale-105
-    "
+                                    className="w-full max-w-md mx-auto lg:max-w-none h-auto lg:h-[560px] object-cover rounded-3xl  transition-transform duration-700 ease-out group-hover:scale-105"
                                 />
 
-                                {/* Gradient Overlay */}
+
                                 <div className="absolute inset-0 rounded-[30px] bg-gradient-to-t from-[#12122D]/40 via-transparent to-transparent pointer-events-none"></div>
 
-                                {/* Shine Effect */}
+
                                 <div
-                                    className="
-      absolute
-      top-0
-      -left-[150%]
-      h-full
-      w-1/2
-      bg-gradient-to-r
-      from-transparent
-      via-white/20
-      to-transparent
-      skew-x-12
-      group-hover:left-[160%]
-      transition-all
-      duration-1000
-    "
+                                    className="absolute top-0 -left-[150%]  h-full w-1/2 bg-gradient-to-r from-transparent via-white/20 to-transparent skew-x-12 group-hover:left-[160%]  transition-all  duration-1000"
                                 />
 
                             </div>
 
-
-
-
                         </div>
-
                     </div>
-                    {/* =========================
-              RIGHT SIDE
-          ========================= */}
+
 
                     <div className="pt-2">
 
-                        {/* Label */}
-
                         <div className="flex items-center gap-3">
-
-
 
                             <span className="uppercase tracking-[0.22em] text-[#A8E63D] text-md font-semibold">
                                 About Me
@@ -132,7 +74,6 @@ const About = () => {
 
                         </div>
 
-                        {/* Heading */}
                         <h2 className="mt-7 text-[56px] leading-[1.05] font-black tracking-[-0.03em] text-white">
                             Building web apps that
                             <span className="block text-[#A8E63D]">
@@ -140,7 +81,7 @@ const About = () => {
                             </span>
                         </h2>
 
-                        {/* Paragraph */}
+
                         <p className="mt-10 max-w-[620px] text-[#A7A7C7] text-lg leading-9">
                             I'm
                             <span className="text-white font-medium">
@@ -165,9 +106,6 @@ const About = () => {
 
 
                     </div>
-
-
-
 
 
                 </div>
