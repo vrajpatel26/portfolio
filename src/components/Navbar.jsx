@@ -23,7 +23,7 @@ const Navbar = () => {
                     </div>
 
                     <h1 className="text-white font-bold text-xl sm:text-2xl">
-                        Vraj Patel
+                        VRAJ PATEL
                     </h1>
                 </a>
 

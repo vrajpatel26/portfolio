@@ -29,9 +29,9 @@ const Education = () => {
   return (
     <section
       id="education"
-      className="bg-[#12122D] py-20 scroll-mt-20"
+      className="bg-[#12122D] py-20 scroll-mt-10"
     >
-      <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10">
+      <div className="max-w-7xl flex flex-col items-center lg:items-start mx-auto px-5 sm:px-8 lg:px-10">
 
         {/* Badge */}
 

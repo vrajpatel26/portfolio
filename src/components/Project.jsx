@@ -20,8 +20,8 @@ const projects = [
             "JWT Auth"
         ],
 
-        github: "#",
-        live: "#",
+        github: "https://github.com/vrajpatel26/UniNotes.git",
+        live: "https://uninotes-app.vercel.app",
     },
 
     {
@@ -40,8 +40,8 @@ const projects = [
             "Socket.io",
         ],
 
-        github: "#",
-        live: "#",
+        github: "https://github.com/vrajpatel26/PulseChat.git",
+        live: "https://pulsechat-app.vercel.app",
     },
 
     {
@@ -71,9 +71,9 @@ const Projects = () => {
     return (
         <section
             id="projects"
-            className="bg-[#12122D] py-20 scroll-mt-20"
+            className="bg-[#12122D] py-20 scroll-mt-10"
         >
-            <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10">
+            <div className="max-w-7xl mx-auto flex  items-center lg:items-start flex-col px-5 sm:px-8 lg:px-10">
 
                 {/* Badge */}
 
