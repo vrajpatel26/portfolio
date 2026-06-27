@@ -62,8 +62,8 @@ const projects = [
             "Razorpay",
         ],
 
-        github: "https://github.com/yourusername/sikshasetu",
-        live: "https://your-live-demo-link.com",
+
+        live: "https://sikshasetu-app.vercel.app",
     },
 ];
 
@@ -124,7 +124,7 @@ const Projects = () => {
                                         </div>
                                     )}
                                 </div>
- 
+
 
                             </div>
 
@@ -152,26 +152,31 @@ const Projects = () => {
 
                             <div className="flex gap-4 mt-8">
 
-                                <a
-                                    href={project.github}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="flex-1 border border-[#2A2950] rounded-xl py-3 flex justify-center items-center gap-2 text-white hover:border-[#A8E63D] transition"
-                                >
-                                    <FaGithub />
+                                {/* GitHub Button */}
 
-                                    Code
-                                </a>
+                                {project.github && (
+                                    <a
+                                        href={project.github}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="flex-1 border border-[#2A2950] rounded-xl py-3 flex justify-center items-center gap-2 text-white hover:border-[#A8E63D] transition"
+                                    >
+                                        <FaGithub />
+                                        Code
+                                    </a>
+                                )}
+
+                                {/* Live Button */}
 
                                 <a
                                     href={project.live}
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="flex-1 bg-[#A8E63D] text-[#12122D] rounded-xl py-3 flex justify-center items-center gap-2 font-semibold hover:scale-105 transition"
+                                    className={`${project.github ? "flex-1" : "w-full"
+                                        } bg-[#A8E63D] text-[#12122D] rounded-xl py-3 flex justify-center items-center gap-2 font-semibold hover:scale-105 transition`}
                                 >
                                     <FaExternalLinkAlt />
-
-                                    Live
+                                    Live Demo
                                 </a>
 
                             </div>
