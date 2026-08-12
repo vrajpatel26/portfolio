@@ -21,7 +21,7 @@ const projects = [
         ],
 
         github: "https://github.com/vrajpatel26/UniNotes.git",
-        live: "https://uninotes-app.vercel.app",
+        live: "https://uninotes-app.onrender.com",
     },
 
     {
